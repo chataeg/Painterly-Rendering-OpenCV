@@ -1,7 +1,7 @@
 # Painterly-Rendering-OpenCV
 Painterly Rendering with Curved Brush Strokes of Multiple Sizes - Aaron Hertzmann
 
-21-1 논문리뷰 및 코드 구현 + 구현 결과물
+21-1 멀티미디어 프로그래밍 논문리뷰 및 코드 구현 + 구현 결과물
 
 - 이미지 파일을 브러시를 이용한 유화 혹은 점묘화로 변환
 
