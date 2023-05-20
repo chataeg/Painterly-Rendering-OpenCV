@@ -2,3 +2,17 @@
 Painterly Rendering with Curved Brush Strokes of Multiple Sizes - Aaron Hertzmann
 
 21-1 논문리뷰 및 코드 구현 + 구현 결과물
+
+- 이미지 파일을 브러시를 이용한 유화 혹은 점묘화로 변환한다.
+
+원본
+
+ https://user-images.githubusercontent.com/38041722/239691212-e12bf8a8-10e2-4f68-8c43-425cbfd3dea0.png
+
+
+
+변환 후
+
+ https://user-images.githubusercontent.com/38041722/239691219-85759f68-3fe3-45ae-ad22-70c8f0487a7c.jpg
+
+
