@@ -7,7 +7,8 @@ Painterly Rendering with Curved Brush Strokes of Multiple Sizes - Aaron Hertzman
 
 원본
 
- https://user-images.githubusercontent.com/38041722/239691212-e12bf8a8-10e2-4f68-8c43-425cbfd3dea0.png
+![source1](https://github.com/chataeg/Painterly-Rendering-OpenCV/assets/38041722/225f19a6-633c-46f3-ad35-d11e543c4b39)
+
 
 
 
