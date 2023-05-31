@@ -5,6 +5,10 @@ Painterly Rendering with Curved Brush Strokes of Multiple Sizes - Aaron Hertzman
 
 - 이미지 파일을 브러시를 이용한 유화 혹은 점묘화로 변환
 
+# 사용된 언어 및 라이브러리
+* C
+* OpenCV
+
 
 # Preview
 
