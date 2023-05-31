@@ -52,6 +52,7 @@ Painterly Rendering with Curved Brush Strokes of Multiple Sizes - Aaron Hertzman
 * "링커" 항목을 찾아 선택한 다음, "일반" 탭으로 이동합니다. "추가 라이브러리 디렉터리"를 클릭한 다음, "..." 버튼을 클릭합니다. 
 * "라이브러리 디렉터리 편집" 창에서 lib 폴더 경로를 추가해 줍니다. 
 * "링커" 항목 아래에 있는 "입력"을 선택합니다. "추가 종속성"을 클릭한 다음, 편집 상자에 다음 라이브러리를 추가합니다.
+(OpenCV 설치 위치에 따라 경로를 조정해야 할 수도 있음 - 현재 글은 2.3.0 기준)
 
 - opencv_core230.lib
 - opencv_imgproc230.lib
