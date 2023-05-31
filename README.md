@@ -44,30 +44,44 @@ Painterly Rendering with Curved Brush Strokes of Multiple Sizes - Aaron Hertzman
 * "링커" 항목을 찾아 선택한 다음, "일반" 탭으로 이동합니다. "추가 라이브러리 디렉터리"를 클릭한 다음, "..." 버튼을 클릭합니다. "라이브러리 디렉터리 편집" 창에서 lib 폴더 경로를 추가해 줍니다. (OpenCV 설치 위치에 따라 경로를 조정해야 할 수도 있음 - 현재 글은 2.3.0 기준)
 
 * "링커" 항목 아래에 있는 "입력"을 선택합니다. "추가 종속성"을 클릭한 다음, 편집 상자에 다음 라이브러리를 추가합니다:
-## opencv_core230.lib
-## opencv_imgproc230.lib
-## opencv_highgui230.lib
 
-코드 작성:
+```
+opencv_core230.lib
+opencv_imgproc230.lib
+opencv_highgui230.lib
+```
 
-프로젝트에서 .cpp 파일을 만들고 OpenCV 함수를 사용할 수 있습니다. 예를 들어, 다음과 같은 코드를 사용하여 이미지를 로드하고 표시할 수 있습니다:
-cpp
-Copy code
-#include <opencv2/core/core.hpp>
-#include <opencv2/highgui/highgui.hpp>
+# 3. 코드 작성:
 
+* 프로젝트에서 .cpp 파일을 만들고 OpenCV 함수를 사용할 수 있습니다. 예를 들어, 다음과 같은 코드를 사용하여 이미지를 로드하고 표시할 수 있습니다:
+
+```
+#include<opencv2/opencv.hpp>
 int main()
 {
-    // 이미지 로드
-    cv::Mat image = cv::imread("image.jpg");
+	
+	char filename[1000];
+	while (true) {
+		printf("파일 경로를 입력하시오.(파일 경로의 최대 문자열 크기는 1000 입니다.)\n->");
+		scanf("%s", &filename);
 
-    // 이미지 표시
-    cv::namedWindow("Image");
-    cv::imshow("Image", image);
-    cv::waitKey(0);
+		if (cvLoadImage(filename) == NULL)
+		{
+			printf("파일을 찾을 수 없습니다! 다시 입력하세요.");
+		}
+		else break;
+	}
 
-    return 0;
+	IplImage* src = cvLoadImage(filename); 
+	IplImage* dst = cvCreateImage(cvGetSize(src), 8, 3); 
+	
+	
+	cvShowImage("canvas", dst);
+	cvWaitKey();
+	return 0;
 }
-빌드 및 실행:
-코드 작성이 완료되면 프로젝트를 빌드하고 실행할 수 있습니다. OpenCV 2.3.0 함수가 포함된 코드가 실행되며, 이미지가 표시됩니다.
-이제 Visual Studio에서 OpenCV 2.3.0을 설치하고 사용할 수 있어야 합니다. 주의할 점은 OpenCV 2.3.0은 오래된 버전이므로 최신 기능을 지원하지 않을 수 있으며, 보안 및 안정성 문제가 발생할 수 있습니다. 가능하면 최신 버전의 OpenCV를 사용하는 것이 좋습니다.
+```
+
+위 코드가 정상적으로 실행되고 이미지가 나타나면 OpenCV 설치가 완료된 것입니다.
+
+
