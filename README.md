@@ -41,7 +41,7 @@ Painterly Rendering with Curved Brush Strokes of Multiple Sizes - Aaron Hertzman
 
 ```
 * OpenCV 최신버전을 다운로드하려면 다음 링크를 방문하세요: https://opencv.org/releases/ 
-* 저장소에 포함되어 있는 OpenCV 2.3.0 파일을 사용해도 무관합니다.
+* 저장소에 포함되어 있는 OpenCV 2.3.0 파일을 사용하는 것을 추천합니다. 필자는 2.3.0 버전을 이용해 구현했고 컴파일러 설정이 최신 버전과 상이할 수 있습니다.
 ```
 
 # 2. 비주얼 스튜디오 설정
