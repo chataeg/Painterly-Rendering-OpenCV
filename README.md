@@ -79,13 +79,13 @@ int main()
 		}
 		else break;
 	}
-
-	IplImage* src = cvLoadImage(filename); 
-	IplImage* dst = cvCreateImage(cvGetSize(src), 8, 3); 
+	
+	IplImage* src = cvLoadImage(filename); // 이미지 로드와 이미지 객체 포인터 할당
+	IplImage* dst = cvCreateImage(cvGetSize(src), 8, 3); // src 의 사이즈, 픽셀 값 비트 길이(8), 이미지의 컬러 채널 수 (3)
 	
 	
-	cvShowImage("canvas", dst);
-	cvWaitKey();
+	cvShowImage("canvas", dst); // 'canvas' 라는 이름의 창에 이미지 표시
+	cvWaitKey(); // 키 입력을 기다림
 	return 0;
 }
 ```
