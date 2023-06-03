@@ -41,7 +41,7 @@ Painterly Rendering with Curved Brush Strokes of Multiple Sizes - Aaron Hertzman
 
 ```
 * OpenCV 최신버전을 다운로드하려면 다음 링크를 방문하세요: https://opencv.org/releases/ 
-* 저장소에 포함되어 있는 OpenCV 2.3.0 파일을 사용해도 무관합니다.
+* 저장소에 포함되어 있는 OpenCV 2.3.0 파일을 사용하는 것을 추천합니다. 필자는 2.3.0 버전을 이용해 구현했고 컴파일러 설정이 최신 버전과 상이할 수 있습니다.
 ```
 
 # 2. 비주얼 스튜디오 설정
@@ -79,17 +79,23 @@ int main()
 		}
 		else break;
 	}
-
-	IplImage* src = cvLoadImage(filename); 
-	IplImage* dst = cvCreateImage(cvGetSize(src), 8, 3); 
+	
+	IplImage* src = cvLoadImage(filename); // 이미지 로드와 이미지 객체 포인터 할당
+	IplImage* dst = cvCreateImage(cvGetSize(src), 8, 3); // src 의 사이즈, 픽셀 값 비트 길이(8), 이미지의 컬러 채널 수 (3)
 	
 	
-	cvShowImage("canvas", dst);
-	cvWaitKey();
+	cvShowImage("canvas", dst); // 'canvas' 라는 이름의 창에 이미지 표시
+	cvWaitKey(); // 키 입력을 기다림
 	return 0;
 }
 ```
 
 위 코드가 정상적으로 실행되고 이미지가 나타나면 OpenCV 설치가 완료된 것입니다.
+
+
+# 4. 소스코드 실행:
+
+* 빈 프로젝트를 만든 후 위의 일련의 설정들을 따라 가서 프로그램을 시작할 수 있지만, 저장소 다운로드자의 편의를 위해 프로젝트 파일 또한 추가하였음
+
 
 
