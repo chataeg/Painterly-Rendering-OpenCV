@@ -15,7 +15,7 @@ https://mrl.cs.nyu.edu/publications/painterly98/hertzmann-siggraph98.pdf
 * OpenCV
 
 
-# Preview
+# Preview [.GIF]
 
 ![Valorant_2023_05_20_-_23_38_47_04_AdobeExpress](https://github.com/chataeg/C-Game-Project/assets/38041722/1a143723-ba80-4e9d-b9c6-7052cbfe7b6d)
 
