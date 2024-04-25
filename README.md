@@ -24,7 +24,7 @@ https://mrl.cs.nyu.edu/publications/painterly98/hertzmann-siggraph98.pdf
 ![Valorant_2023_05_20_-_23_38_47_04_AdobeExpress](https://github.com/chataeg/C-Game-Project/assets/38041722/1a143723-ba80-4e9d-b9c6-7052cbfe7b6d)
 
 # 유투브 시연 영상 (클릭하면 유투브로 이동합니다.)
-[![Video Label](http://img.youtube.com/vi/g0yXzrDSAPw/0.jpg)](https://youtu.be/g0yXzrDSAPw)
+[![Video Label](http://img.youtube.com/vi/_qcZQU30bIY/0.jpg)](https://youtu.be/_qcZQU30bIY)
 
 
 
