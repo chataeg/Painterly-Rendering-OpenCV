@@ -1,7 +1,12 @@
 # Painterly-Rendering-OpenCV
 Painterly Rendering with Curved Brush Strokes of Multiple Sizes - Aaron Hertzmann
 
+
 여러 사이즈의 브러시로 연결된 점들로 사진을 유화 / 점묘화 처럼 변경하는 프로그램 입니다. 사용자는 사진 파일의 경로를 입력해 본인의 사진을 유화 / 점묘화 로 Transform 시킬 수 있습니다.
+
+
+![portfolio_page-0011](https://github.com/user-attachments/assets/51e2e567-3780-47ba-a788-239204420f00)
+
 
 # 논문
 https://mrl.cs.nyu.edu/publications/painterly98/hertzmann-siggraph98.pdf
@@ -40,7 +45,12 @@ https://mrl.cs.nyu.edu/publications/painterly98/hertzmann-siggraph98.pdf
 
 ![result1](https://github.com/chataeg/Painterly-Rendering-OpenCV/assets/38041722/3b224ab7-0c5d-46e6-9079-5a0e9c967448)
 
+---
 
+
+
+
+---
 
 # OpenCV 오픈소스 라이브러리 설치 및 실행 방법
 
